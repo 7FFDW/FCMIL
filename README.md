@@ -40,11 +40,11 @@ Our framework integrates **Frequency-aware Attention (FAA)** to capture diagnost
 │   ├── utils/              # Model-specific internal utilities
 │   ├── builder.py          # Model construction factory
 │   ├── causal_mil_loss.py  # Causal Regularization loss logic
-│   ├── ctran.py            # C-Tran backbone implementation
-│   ├── FC_MIL.py           # Core architecture (FCMIL, FAA, DABlock)
+│   ├── ctran.py            # CTransPath backbone implementation
+│   ├── FC_MIL.py           # Core architecture
 │   ├── MaxPooling.py       # Max pooling baseline
 │   ├── MeanPooling.py      # Mean pooling baseline
-│   ├── MIL_models.py       # Standard MIL baselines (ABMIL, CLAM, etc.)
+│   ├── MIL_models.py       # Standard MIL baselines
 │   └── resnet_custom.py    # Custom ResNet feature extractor
 ├── utils/
 │   └── utils.py            # General helper functions and metrics
