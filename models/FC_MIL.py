@@ -66,9 +66,6 @@ class FAA(nn.Module):
 
         freq,attn = self.attn(q, k, v)
 
-
-        # attn = (q @ k.transpose(-2, -1)) / (C ** 0.5)
-        # attn = torch.softmax(attn, dim=-1)
         return freq, attn
 
 
