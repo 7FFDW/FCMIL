@@ -41,9 +41,7 @@ Our framework integrates **Frequency-aware Attention (FAA)** to capture diagnost
 │   ├── builder.py          
 │   ├── causal_mil_loss.py  
 │   ├── ctran.py            
-│   ├── modules.py          
-│   ├── MaxPooling.py       
-│   ├── MeanPooling.py      
+│   ├── modules.py               
 │   ├── MIL_models.py       
 │   └── resnet_custom.py    
 ├── utils/
