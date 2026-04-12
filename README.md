@@ -37,20 +37,20 @@ Our framework integrates **Frequency-aware Attention (FAA)** to capture diagnost
 
 ```text
 ├── models/
-│   ├── utils/              # Model-specific internal utilities
-│   ├── builder.py          # Model construction factory
-│   ├── causal_mil_loss.py  # Causal Regularization loss logic
-│   ├── ctran.py            # CTransPath backbone implementation
-│   ├── FC_MIL.py           # Core architecture
-│   ├── MaxPooling.py       # Max pooling baseline
-│   ├── MeanPooling.py      # Mean pooling baseline
-│   ├── MIL_models.py       # Standard MIL baselines
-│   └── resnet_custom.py    # Custom ResNet feature extractor
+│   ├── utils/              
+│   ├── builder.py          
+│   ├── causal_mil_loss.py  
+│   ├── ctran.py            
+│   ├── modules.py          
+│   ├── MaxPooling.py       
+│   ├── MeanPooling.py      
+│   ├── MIL_models.py       
+│   └── resnet_custom.py    
 ├── utils/
-│   └── utils.py            # General helper functions and metrics
+│   └── utils.py            
 ├── wsi_core/
-│   ├── dataset_modules/    # Data loading and augmentation logic
-│   ├── wsi_core/           # WSI processing core modules
-│   ├── create_patches_fp.py # Patch tiling and preprocessing
-│   └── extract_features_fp.py # Feature extraction pipeline
+│   ├── dataset_modules/    
+│   ├── wsi_core/           
+│   ├── create_patches_fp.py 
+│   └── extract_features_fp.py 
 └── README.md
