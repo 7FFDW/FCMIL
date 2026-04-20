@@ -27,10 +27,6 @@ Our framework integrates **Frequency-aware Attention (FAA)** to capture diagnost
 * **Backdoor Adjustment**: Implements a $do(X)$ intervention strategy.
 * **Counterfactual Tasks**: Uses **Drop-TopK** (removing key evidence) and **Re-BottomK** (replacing irrelevant background) to ensure the model focuses on true causal pathological regions.
 
-### 3. Efficiency & Scalability
-* Optimized for large-scale WSIs (up to 50k+ instances per slide).
-* Supports **Gradient Checkpointing** and **Flash Attention** for low memory footprint during training and inference.
-
 ---
 
 ## 📂 Project Structure
